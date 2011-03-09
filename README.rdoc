@@ -34,4 +34,4 @@ end
 
 = LEGEND:
 
-Gentoo uses the names 'mask' and 'unmask' terminology between stable and unstable.  Typically this is done in /etc/make.conf with ACCEPT_KEYWORDS declaration for '~amd64 and ~x86".  However it can also be added to /etc/portage/package.keywords/local to 'unmask' packages individually.
+Gentoo uses the names 'mask' and 'unmask' terminology between stable and unstable.  This is done in /etc/portage/package.keywords/local and we automate this for you so you don't have to know about ~x86 or ~amd64.
